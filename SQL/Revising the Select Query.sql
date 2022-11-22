@@ -1,15 +1,15 @@
 Query all columns for all American cities in the CITY table with populations larger than 100000. The CountryCode for America is USA.
 The CITY table is described as follows:
 
-	      CITY
+	  CITY
 =========================
-Field			  Type
-ID			    NUMBER
-NAME			  VARCHAR2(17)
+Field		 Type
+ID		NUMBER
+NAME		VARCHAR2(17)
 COUNTRYCODE	VARCHAR2(3)
-DISTRICT		VARCHAR2(20)
+DISTRICT	VARCHAR2(20)
 POPULATION	NUMBER
 =========================
 
 Solution :
-select * from city where countrycode = 'USA' and population >= 100000;
+SELECT * FROM CITY WHERE COUNTRYCODE = 'USA' AND POPULATION >= 100000;
