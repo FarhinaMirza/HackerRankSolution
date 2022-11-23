@@ -8,7 +8,7 @@ The STUDENTS table is described as follows:
 
 ====================
 Column  Type
-ID  Integer
+ID    Integer
 Name  String
 Marks Integer
 ====================
@@ -17,9 +17,9 @@ The Name column only contains uppercase (A-Z) and lowercase (a-z) letters.
 Sample Input
 ====================
 ID    NAME    MARKS
-1   Ashley  81
+1   Ashley    81
 2   Samantha  75
-3   Julia   76
+3   Julia     76
 4   Belvet    84
 ====================
 
