@@ -1,1 +1,1 @@
-
+## Solutionas of Sql queries
